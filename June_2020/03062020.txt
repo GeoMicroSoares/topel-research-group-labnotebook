@@ -1,0 +1,5 @@
+ - GRIDSS now working for sv_caller.py
+ - testing bedtools now, thinking if DEL,INS, etc annotation can be done AFTER SnpEff
+ - creating GRIDSS-based Pilon extra assembly reads reference
+
+ - Issue with mismatching headers between v112 reference FASTA and GFF needs to be addressed

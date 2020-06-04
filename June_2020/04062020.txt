@@ -1,0 +1,2 @@
+ - check if gridss ran well for Pilon extra reads
+ - check sv_caller for timings?
