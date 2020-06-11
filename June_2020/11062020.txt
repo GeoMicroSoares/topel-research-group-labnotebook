@@ -5,3 +5,14 @@
 	however, if this is to be automated, how to change config file for each ref genome?
 	data.dir can be changed easily, but how about the last lines in the config file?
 	starting with data.dir for now
+
+ - lines needed in the bottom of config file:
+
+#Skeletonema marinoi reference v1.1.2
+Smarinoi.v112.genome : Smarinoi_v112
+Smarinoi.v112.codonTable : Standard
+Smarinoi.v112.Sm_Mitochondrion_S_marinoi_RO5_v1.1.codonTable : Mold_Mitochondrial
+Smarinoi.v112.Sm_Chloroplast_S_marinoi_RO5_v1.1.codonTable : Bacterial_and_Plant_Plastid
+Smarinoi.v112.reference : /proj/data26/Skeletonema_marinoi_genome_project/12_remove_redundancy/Fake_Primary_Removal/Smar_v1.1.2.fasta
+
+ how hard can it be to automate this as bamboozle is installed?
