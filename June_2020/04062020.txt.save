@@ -4,4 +4,4 @@
  - v112 ref has been updated to have Sm_ as prefix for every contig so re-running mapping, gridss, annotation for it
  - might need to re-run mapping for P14203
 
- - bamboozle_sv_caller_qc_sum.R now in Bamboozle/modules, need to update sv_caller.py to run it. R packages now installed
+ - 

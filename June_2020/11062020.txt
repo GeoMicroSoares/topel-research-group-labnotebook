@@ -1,0 +1,7 @@
+ - need to sort out snpeff config file:
+	without it snpeff is very upset
+	tried using just -dataDir but no
+	now trying to use a config file and -dataDir
+	however, if this is to be automated, how to change config file for each ref genome?
+	data.dir can be changed easily, but how about the last lines in the config file?
+	starting with data.dir for now

@@ -1,0 +1,4 @@
+ - waiting for P8511 to be done, needed to test sv_caller, run gridss on it after
+ - continue on manual
+ - re-indexed the newly re-headered? Smarv112 ref with bowtie so that P8511 can be re-run
+ - also re-run P14203

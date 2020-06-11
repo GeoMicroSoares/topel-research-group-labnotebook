@@ -1,0 +1,2 @@
+ - R script isn't being found by python - this is making svcaller not work properly as snpeff has nothing to feed from.
+asked M&M about it.
