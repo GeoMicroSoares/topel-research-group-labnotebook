@@ -1,0 +1,2 @@
+ - re-built snpeff database in Bamboozle/data, didn't include Mit, Chl contigs because they're not in the GFF. look at this in the future
+ - 
