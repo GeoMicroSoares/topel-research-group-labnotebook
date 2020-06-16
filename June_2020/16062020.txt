@@ -1,0 +1,1 @@
+ - SnpEff now works, just needs something to convert .vcf to a -delimited file e.g. tsv, csv
