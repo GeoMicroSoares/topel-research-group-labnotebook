@@ -1,1 +1,19 @@
  - SnpEff now works, just needs something to convert .vcf to a -delimited file e.g. tsv, csv
+ - addding a filter using bcftools first to get a simpler .vcf that can maybe then be turned in to a delimited file:
+keeping:
+	CHROM  POS     ID      REF     ALT     QUAL    FILTER
+	##INFO=<ID=EVENT,Number=1,Type=String,Description="ID of event associated to breakend">
+	##INFO=<ID=REF,Number=1,Type=Integer,Description="Count of reads mapping across this breakend">
+	##INFO=<ID=RP,Number=1,Type=Integer,Description="Count of read pairs supporting breakpoint">
+	##INFO=<ID=RPQ,Number=1,Type=Float,Description="Quality score of read pairs supporting breakpoint">
+	##INFO=<ID=SVLEN,Number=.,Type=Integer,Description="Difference in length between REF and ALT alleles">
+	##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+	##INFO=<ID=SIMPLE_TYPE,Number=1,Type=String,Description="Simple event type annotation based purely on breakend position and orientation.">
+	##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO'">
+	##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+	##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+
+
+bcftools query -f '%CHROM:%POS:%REF:%ALT %INFO/EVENT:%INFO/REF:%INFO/RP:%INFO/RPQ:%INFO/SVLEN:%INFO/SVTYPE:%INFO/SIMPLE_TYPE:%INFO/ANN:%INFO/LOF:%INFO/NMD\n' sv_caller_output/P14203_157_sorted_sorted_masked_lof.vcf | head
+
+
