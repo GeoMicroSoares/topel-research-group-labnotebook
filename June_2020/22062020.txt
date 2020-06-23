@@ -1,1 +1,9 @@
- - read chapter 6 on bioinfo book
+ - read chapter 6 on bioinfo book by 31 august
+ - multiple file input only for barcoding pipeline
+ - bamboozle outputs agnostic of metadata
+ - utility scripts will take output names and use user-provided table to parse output vcfs
+ - write tests for the code? unittest?
+
+ - sv_caller.py now working w/ and w/o masking
+
+ - going to run Bamboozle lof on P14203

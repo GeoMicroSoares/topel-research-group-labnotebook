@@ -1,1 +1,2 @@
  - testing MASKING now that sv_caller working as supposed to
+ - P8511_101 still not mapped properly - re-running bowtie2 and gridss to test masking with sv_caller.py
