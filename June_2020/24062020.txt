@@ -1,0 +1,1 @@
+ - writing pseudocode for lof data analysis. big question will be how to plot SVs over multiple samples and chromosomes
