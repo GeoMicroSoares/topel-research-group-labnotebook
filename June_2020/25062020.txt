@@ -1,0 +1,2 @@
+ - how about setting up a server to deliver on sample-specific results with circos, etc?
+ 
