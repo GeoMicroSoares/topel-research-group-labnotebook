@@ -1,0 +1,14 @@
+ - getting this for P14203_180 after running sv_caller.
+ - seems like an R error, check it out
+Error in `[[<-`(`*tmp*`, name, value = NA_character_) :
+  1 elements in value to replace 0 elements
+Calls: $<- -> $<- -> [[<- -> [[<-
+Execution halted
+
+ - after checking better seems a small number of detected SV calls were all masked and an empty vcf was generated after that.
+ - sv_caller.py needs warnings/etc in cases like these
+ - Issue was added to repo
+
+
+ - how to summarize svs in vcfs
+ - total numbers of del, ins, etc won't necessarily reflect effects
