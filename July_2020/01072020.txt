@@ -1,0 +1,8 @@
+ - so how's this dashboard going to work?
+ - maybe functions already working to summarize vcf files may produce circos/chrom plot inputs
+  - input for circos has to:
+	1. be tab-delimited
+	2. have headers
+	3. 1 chromosome name column
+	4. 1 position in chromosome column (int)
+	5. be =< 10MB
