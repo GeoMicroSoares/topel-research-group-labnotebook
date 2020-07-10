@@ -1,0 +1,23 @@
+ - maybe dashboard isn't that good of an idea?
+ - maybe plotly "barplot" with colours for:
+	indels (0-50bp)
+	SVs (>50bp)
+		where x = chromosomes
+		"rows" = samples
+		colours = SVs, etc
+		annotations for genes, LOF, NMD data with plotly
+
+
+ - vilma's code for plotly output?
+	high_charts
+	IGV? server to show outputs
+	per chrm? all?
+	info submitted to it? to viz in IGV?
+	overview
+	BED format - tsv for IGV
+	population definition on utility script
+	vcf -> 10 vcf to utility script w metadta  -> compare pops? different plot?
+	pops 
+	agnostic vcf -> metadata on utility script
+
+ - message Omneya for Monday - sequecing S. subsalsum

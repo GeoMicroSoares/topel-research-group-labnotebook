@@ -1,0 +1,19 @@
+ - so maybe plotting all of the things not the best idea?
+	how about directing user to:
+		vcftools to obtain manhattan plot of Fst values for pop and plot only by pops
+		IGV to visualize VCFs
+			this would follow inspection of M plots so user could circumscribe it to 
+				i.e. one chromosome 
+ - for vcftools fst:
+	1. merge vcfs
+		needs space delimited inputs
+		-m none
+		output -Ov -o x.vcf
+	2. vcftools fst
+		needs
+			1 merged vcf
+			1 text file per pop
+			--out = prefix
+			tsv output? (test)
+	3. manhattan plot
+		seaborn
