@@ -1,0 +1,16 @@
+ - vcftools not working for fst calculations
+	not a matter of:
+		id merging with bcftools
+		chrom field not being present
+		sample names w . in vcf
+
+ - so vilma's pipeline really does this... no use in reinventing the wheel........
+
+ - so just the summary then from lof data analysis?
+
+ - jfc
+
+ - ok change lof_data_analysis.py to summarize.. smth
+ - create new plotly-based solution to relate fst pairwise matrices in a PCA with metadata?
+
+ - copy Vilma's pipeline first and test
