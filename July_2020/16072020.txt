@@ -1,0 +1,3 @@
+ - for fst, vcftools needs fields GT and ALT in the VCFs as inputs
+ - GRIDSS doesn't output that...
+ - wot 2 do

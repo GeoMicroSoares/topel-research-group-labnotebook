@@ -1,0 +1,6 @@
+ - thinking of removing GRIDSS from the pipeline as incompatible with outputs neeeded.
+ - GATK seems the best one to get things going
+
+ - https://gatkforums.broadinstitute.org/gatk/discussion/6484/how-to-generate-an-unmapped-bam-from-fastq-or-aligned-bam
+ - https://gatk.broadinstitute.org/hc/en-us/articles/360046222751-MarkDuplicates-Picard-
+ - https://gatk.broadinstitute.org/hc/en-us/articles/360046223651-SortSam-Picard-
