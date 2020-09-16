@@ -1,0 +1,14 @@
+ - need to rerun snpeff on P14203, crashed P14203 with >> jobs of 1 thread, better off 8 threads
+
+
+ - for the utility script
+	0. worth merging?
+	1. extracting info from all input vcfs or multi-VCF?
+		x. sample name
+		a. chrom
+		c. INFO:
+			- ANN:
+				alt, mod, type, gene name, length of CDS
+	2. pandas df?
+		matrix?
+		maybe gene /sample matrix

@@ -1,0 +1,8 @@
+ - run snpeff again
+ - lovisa spls,
+	is there a signal there for LOF v
+ - all samples - are some genes ever/never mutated, etc?
+
+1 / ID LOF IDs from snpeff output > <filename>
+2 / filter those IDs from geno output
+ - vcftools --vcf file.vcf --snps <filename> --recode will keep only the SNPs with IDs in <filename>.

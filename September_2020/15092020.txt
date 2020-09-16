@@ -1,0 +1,2 @@
+ - utilitty module outputs table, time to re-run snpeff on lof - 09 the ones that failed before
+ - need to build population comparison tools in the utility script now

@@ -1,0 +1,16 @@
+ - id shifts in LOF in warm core
+ - extract the temperature affected genes (warm - cold), grep? could be an approach
+ - comparison between pops, parsing
+ - outputs?
+	1st step
+		any LOF mutations
+	2nd step
+		one or several events, complexity
+
+ - homo/het, maybe only include serious deleterious mutations?
+ - LOF --> type of gene? --> single event, lots?
+
+ - cost-estimate for more Nanopore sequencing! S. subsalsum v2!
+
+
+ - P8352 can be re-run as genotypecaller didn't work
