@@ -1,0 +1,8 @@
+ - utility half done, generates table for multi-VCF
+	Processing Lovisa dataset, sv_caller ran
+	(define populations, by pop:)
+		1. Filter VCFs
+		2. bgzip, index
+		3. merge
+		4. bgzip, index
+		5. run lof_utility.py
